@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Sen, arial, sans-serif;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: cadetblue;
+}
+
+.content {
+    width: 430px;
+    height: 530px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: coral;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 12px;
+    border: 0.5rem outset rgb(206, 147, 157);
+}
+
+tbody {
+    border: 0.5rem outset rgb(206, 147, 157);
+    outline: 0.4rem solid khaki;
+    box-shadow: 0 0 0 1rem skyblue;
+    border-radius: 1px;
+    font: bold 1rem sans-serif;
+    margin: 0;
+    padding: 1rem;
+}
+
+tr,
+th {
+    border: 1px solid black;
+}
+
+input#basic_pension {
+    border: 2px solid blueviolet;
+    width: 7rem;
+    height: 2rem;
+    background-color: pink;
+    text-align: center;
+    font-size: large;
+}
+
+input#DA_DR,
+#GPension,
+#GOL {
+    border: 2px solid rgb(109, 122, 116);
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(127, 163, 127);
+    text-align: center;
+    font-size: larger;
+}
+
+#btn,
+input[type='reset'] {
+    width: 6rem;
+    justify-self: center;
+    font-size: larger;
+    background-color: rgb(127, 163, 127);
+}
+
+th {
+    width: 150px;
+    height: 44px;
+    border: 1px solid black;
+}
+
+tbody {
+    border: 0.5rem outset rgb(206, 147, 157);
+}
