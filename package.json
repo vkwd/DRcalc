@@ -1,0 +1,19 @@
+{
+  "name": "drcalc",
+  "version": "1.0.0",
+  "description": "Dearness Relief calculator for RBI",
+  "main": "cal1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkwd/DRcalc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vkwd/DRcalc/issues"
+  },
+  "homepage": "https://github.com/vkwd/DRcalc#readme"
+}
