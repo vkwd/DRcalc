@@ -6,39 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
     <link rel="stylesheet" href="cal1.css" />
-    <!-- <script type="text/javascript">
-        function calculate(BP) {
-            var bp = parseInt(document.BP.basic_pension.value);
-            var dr = 0.775;
-            var drp = 0.759;
-            var gp = bp + bp * dr;
-            var gpp = bp + bp * drp;
-            var gpp = bp + bp * drp;
 
-            //alert (dr);
-            //alert(DA_DR);
-            document.BP.DA_DR.value = dr;
-            //var bp = parseInt(document.BP.basic_pension.value);
-            //var bp=document.getElementByID("basic_pension").value;
-            //alert(bp);
-            //var pp=(2/3)*bp
-            //document.BP.PP.value=pp;
-            //alert(pp);
-
-            document.BP.GPension.value = Math.ceil(gp);
-            //alert(gp);
-            var gpp = bp + bp * drp;
-
-            document.BP.GOL.value = Math.ceil(gp - gpp);
-        }
-    </script>
-    > -->
 </head>
 
 <body>
-
-    <!-- <p id="demo">
-    </p> -->
 
     <div class="content">
         <form name="BP" id="BP">
@@ -50,6 +21,8 @@
                             <p>
                                 Know increase in PENSION- </br>Enter Your Basic Pension </br>and click Calculate
                             </p>
+                            <input type="text" id="err1" value="" readonly required />
+
                             <span id="error"></span>
                             <tr>
                                 <th height="24" colspan="2" scope="row">
@@ -63,7 +36,7 @@
                                 <td width="210">
 
 
-                                    <input name="basic_pension" type="number" id="basic_pension" value="0" min="3500" max="99999" required />
+                                    <input name="basic_pension" type="number" id="basic_pension" value="0" required />
 
                                 </td>
 
@@ -72,7 +45,7 @@
                                 <th scope="row">DA/DR</th>
                                 <td>
 
-                                    <input type="text" name="DA_DR" id="DA_DR" size="10" value="0" readonly="readonly" />
+                                    <input type="text" name="DA_DR" id="DA_DR" size="10" value="0" readonly />
 
                                 </td>
                             </tr>
@@ -91,41 +64,26 @@
                             </tr>
                             <tr>
                                 <th colspan="2" scope="row">
-                                    <input type="button" name="b1" id="btn" value="Calculate " onclick="isValid()" ; /> </tr>
+                                    <button type="button" id="btn">Calculate</button>
+
+                            </tr>
 
                             <tr>
                                 <th colspan="2" scope="row ">
-                                    <input type="reset" value="Reset" ;/></tr>
-
-                            <!-- <tr>
-                                <input type="reset" ;>Reseting </button>
-                            </tr> -->
-                            <!-- <div class="controls">
-
-                                        <label for="id">User ID:</label>
-                                        <input type="text" id="id" name="id" />
-
-                                        <input type="reset" value="Reset"> -->
-
-                            <!-- <input type="submit" value="Submit"> -->
-
-                            <!-- <div>
-        <p id="demo "> </p>
-    </div> -->
+                                    <button id="btn1">Reset</button>
+                            </tr>
                             <div>
-                                <!--<span id="error"></span> -->
-                                <!-- <span id="error"></span> -->
                                 <p id="demo "></p>
                             </div>
                         </table>
 
-                        <!-- <p id="demo "> </p> -->
+
         </form>
 
     </div>
 
 
-    <script src="cal1.js "></script>
+    <script src="cal1.js"></script>
 
 </body>
 

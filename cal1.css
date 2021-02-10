@@ -65,6 +65,7 @@ input#DA_DR,
 }
 
 #btn,
+#btn1,
 input[type='reset'] {
     width: 6rem;
     justify-self: center;
@@ -80,4 +81,21 @@ th {
 
 tbody {
     border: 0.5rem outset rgb(206, 147, 157);
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+    background: white;
+}
+
+#err1 {
+    width: 100%;
+    height: 2rem;
+    color: rgb(228, 28, 28);
+    font-weight: bold;
+    font-size: medium;
+    background: rgb(255, 255, 255);
+    border: 1px;
+    border-color: rgb(206, 147, 157);
 }
